@@ -11,9 +11,6 @@ In this Lab, we use WebLogic server 12.2.1.3.0-ol8 image as Primary Image. Also,
 
 Estimated Time: 10 minutes
 
-Watch the video below for a quick walk-through of the lab.
-[Creation of Images for the OKE on OCI](videohub:1_y5o56oe5)
-
 ### Objectives
 
 In this lab, you will:

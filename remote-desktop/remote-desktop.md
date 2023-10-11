@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This lab will show you how to set up a Resource Manager stack that will generate the Oracle Cloud objects needed to run your workshop.
+This lab will show you how to set up a **Oracle WebLogic Suite for OKE BYOL** stack that will generate the Oracle Cloud objects needed to run your workshop.
 
 Estimated Time: 15 minutes
 
@@ -90,6 +90,8 @@ Secrets are credentials such as passwords, certificates, SSH keys, or **authenti
 5. Enter **wko** as Resource Name Prefix and Click Browse to choose the SSH Public key.
     ![prefix-ssh](images/prefix-ssh.png)
 
+    > Make sure you use **wko** as prefix, as we will use this in further labs.
+
 6. In Verrazzano Integration, leave default unchecked box for **Enable Verrazzano**.
     ![uncheck verrazzano](images/uncheck-verrazzano.png)
  
@@ -97,24 +99,32 @@ Secrets are credentials such as passwords, certificates, SSH keys, or **authenti
     ![network](images/network.png)
 
 8. In Container Cluster (OKE) Configuration, Select the following.
+
     **Kubernetes version:** - Leave the default **v1.26.2**.
+
     **Non-WebLogic Node Pool Shape (Required)** - Select **VM.Standard.E4.Flex** as shape and chooke **1** as Number of OCPU and **16** as Amount of Memory.
+
     **Node in the NodePool for non-WebLogic pods** - Leave the default **1**.
 
     ![non weblogic](images/non-weblogic.png)
 
     **Create WebLogic Node Pool Shape** - Leave the default box as checked.
+
     **WebLogic Node Pool Shape (Required)** - Select **VM.Standard.E4.Flex** as shape and chooke **1** as Number of OCPU and **16** as Amount of Memory.
+
     **Node in the NodePool for WebLogic pods** - Leave the default **1**.
+
     ![weblogic](images/weblogic-pool.png)
 
 9. In Administration Instances, Enter or select the following as shown.
     **Availability Domain for compute instances** - Select the availability domain from the drop down.
+
     **Administration Instance Compute Shape (Required)**- Select **VM.Standard.E4.Flex** as shape and chooke **1** as Number of OCPU and **16** as Amount of Memory.
 
     ![admin instance](images/admin-instance.png)
 
     **Bastion Instance Shape (Required)** - Select **VM.Standard.E4.Flex** as shape and chooke **1** as Number of OCPU and **16** as Amount of Memory.
+
     ![bastion](images/bastion.png)
 
 
@@ -124,9 +134,13 @@ Secrets are credentials such as passwords, certificates, SSH keys, or **authenti
 
 
 11. In Registry (OCIR) section, enter the following as shown.
+
     **Registry User Name** - The user name that Kubernetes uses to access the container image registry, which has the format {identity domain name}/{username}. If your tenancy is using Oracle Identity Cloud Service, use the format oracleidentitycloudservice/{username}.
+
     **OCIR Auth Token Compartment** - Select the compartment where you have the OCIR auth token.
+
     **Validated Secret for OCIR Auth Token** - The secret that contains the OCIR auth token that you generated for the user to access the image registry.
+
     ![ocir secret](images/ocir-secret.png)
 
 
@@ -147,6 +161,7 @@ For ease of execution of this workshop, your VM instance has been pre-configured
 
 3. Navigate to **Application Information** tab, and copy **Remote Desktop URL** and paste it in new browser tab.
     ![desktop url](images/desktop-url.png)
+    
     > Now you need to follow all the instruction inside this remote desktop.
 
 You may now proceed to the next lab.

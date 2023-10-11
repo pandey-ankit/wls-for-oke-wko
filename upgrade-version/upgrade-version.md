@@ -6,9 +6,6 @@ In this lab, we modify the primary image, we use WebLogic Server Image with *12.
 
 Estimated Time: 10 minutes
 
-Watch the video below for a quick walk-through of the lab.
-[Upgrade WebLogic Server Version](videohub:1_5vonezmn)
-
 ### Objectives
 
 In this lab, you will:

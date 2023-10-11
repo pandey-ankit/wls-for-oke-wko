@@ -23,9 +23,6 @@ In this lab, we access the application *opdemo* and verify the successful migrat
 
 Estimated Time: 10 minutes
 
-Watch the video below for a quick walk-through of the lab.
-[Testing Application Deployment](videohub:1_1khcsrbq)
-
 ### Objectives
 
 In this lab, you will:

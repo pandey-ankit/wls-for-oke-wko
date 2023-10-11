@@ -2,12 +2,9 @@
 
 ## Introduction
 
-In this lab, you will create a 3-node Kubernetes cluster configured with all of the necessary network resources. Also, you will create a repository inside Oracle Cloud Container Image Registry. Then, you will generate an authentication token. Further, you will accept the license agreement for WebLogic Server images in Oracle Container Registry.
+In this lab, you will create a  repository inside Oracle Cloud Container Image Registry. Further, you will accept the license agreement for WebLogic Server images in Oracle Container Registry.
 
 Estimated Time: 15 minutes
-
-Watch the video below for a quick walk-through of the lab.
-[Setup the Lab Environment](videohub:1_zhvohpqq)
 
 ### Objectives
 
@@ -49,7 +46,7 @@ In this task, you creates a public repository. In lab 5, we will push Auxiliary 
 
 In this task, we accept the license agreement for WebLogic Server images resides in Oracle Container Registry. As in Lab 5, we will use WebLogic Server 12.2.1.3.0 image as our Primary Image. So, to get access to WebLogic Server Images, we accept the license agreement.
 
-1. Click the link for the Oracle Container Registry [https://container-registry.oracle.com/](https://container-registry.oracle.com/) and sign in. For this, you need an Oracle Account.
+1. Copy and paste the link for the Oracle Container Registry [https://container-registry.oracle.com/](https://container-registry.oracle.com/) in browser and sign in. For this, you need an Oracle Account.
     ![Container Registry Sign In](images/container-registry-sign-in.png)
     
 2. Enter your *Oracle Account Credentials* in the Username and Password fields, and then click *Sign In*.
@@ -65,13 +62,6 @@ In this task, we accept the license agreement for WebLogic Server images resides
 5. Click *Accept* to accept the license agreement.
     ![Accept License](images/accept-license.png)
 
-
-
-## Learn More
-
-*About Oracle Cloud Infrastructure Container Engine for Kubernetes*
-
-Oracle Cloud Infrastructure Container Engine for Kubernetes is a fully-managed, scalable, and highly available service that you can use to deploy your container applications to the cloud. Use the Container Engine for Kubernetes (sometimes abbreviated OKE) when your development team wants to reliably build, deploy, and manage cloud-native applications. You specify the compute resources that your applications require, and OKE provisions them on the Oracle Cloud Infrastructure in an existing OCI tenancy.
 
 ## Acknowledgements
 

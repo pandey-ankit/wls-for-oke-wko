@@ -6,9 +6,6 @@ In this lab, we deploy the WebLogic Domain to kubernetes cluster. In primary ima
 
 Estimated Time: 10 minutes
 
-Watch the video below for a quick walk-through of the lab.
-[Deploy WebLogic Domain to OKE Cluster](videohub:1_wz94de1l)
-
 ### Objectives
 
 In this lab, you will:

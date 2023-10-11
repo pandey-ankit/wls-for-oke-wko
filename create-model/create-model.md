@@ -6,9 +6,6 @@ In this lab, we explore the on-premise WebLogic domain. We navigate through the 
 
 Estimated Time: 15 minutes
 
-Watch the video below for a quick walk-through of the lab.
-[Creation of Model for the OKE on OCI](videohub:1_qdch3qqg)
-
 ### Objectives
 
 In this lab, you will:

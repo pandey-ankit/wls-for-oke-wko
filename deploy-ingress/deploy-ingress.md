@@ -6,9 +6,6 @@ In this lab, we install the *Traefik* Ingress Controller. Later, we updates the 
 
 Estimated Time: 10 minutes
 
-Watch the video below for a quick walk-through of the lab.
-[Deploy Ingress Controller to OKE Cluster](videohub:1_4kih00fi)
-
 ### Objectives
 
 In this lab, you will:
