@@ -52,4 +52,4 @@ In this task, you just need to modify the *Replica* value from 2 to 3 and re-dep
 
 * **Author** -  Ankit Pandey
 * **Contributors** - Maciej Gruszka, Sid Joshi
-* **Last Updated By/Date** - Ankit Pandey, August 2023
+* **Last Updated By/Date** - Ankit Pandey, October 2023

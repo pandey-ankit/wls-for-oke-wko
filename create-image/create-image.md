@@ -92,4 +92,4 @@ Enter the  Auxiliary Image Registry Push Username as follows: `NAMESPACE_OF_YOUR
 
 * **Author** -  Ankit Pandey
 * **Contributors** - Maciej Gruszka, Sid Joshi
-* **Last Updated By/Date** - Ankit Pandey, August 2023
+* **Last Updated By/Date** - Ankit Pandey, October 2023

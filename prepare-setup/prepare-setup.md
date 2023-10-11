@@ -61,6 +61,6 @@ This lab assumes you have:
 You may now proceed to the next lab.
 
 ## Acknowledgements
-* **Author** - Rene Fontcha, LiveLabs Platform Lead, NA Technology
-* **Contributors** - Meghana Banka
-* **Last Updated By/Date** - Rene Fontcha, LiveLabs Platform Lead, NA Technology, February 2022
+* **Author** -  Ankit Pandey
+* **Contributors** - Maciej Gruszka, Sid Joshi
+* **Last Updated By/Date** - Ankit Pandey, October 2023

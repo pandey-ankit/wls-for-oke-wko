@@ -11,6 +11,8 @@ Estimated Time: 15 minutes
 In this lab, you will:
 
 * Generate an authentication token.
+* Create a secret in a Vault
+* Create a Stack: Oracle WebLogic Suite for OKE BYOL
 * Connect to compute instance
 
 ### Prerequisites
@@ -48,7 +50,7 @@ Secrets are credentials such as passwords, certificates, SSH keys, or **authenti
 1. In OCI Console, Click **Hamburger menu** -> **Identity & Security** -> **Vault**.
     ![menu vault](images/menu-vault.png)
 
-2. Select the compartment under *List scope* and then click *Create Vault*.
+2. Select the compartment under **List scope** and then click **Create Vault**.
 
 3. Enter the name of the Vault and click **Create Vault**.
     ![create vault](images/create-vault.png)
@@ -79,7 +81,7 @@ Secrets are credentials such as passwords, certificates, SSH keys, or **authenti
 2. Type **WebLogic OKE** in the search box and then click **Oracle WebLogic Suite for OKE BYOL**.
     ![menu stack](images/menu-stack.png)
 
-3.  Select the latest version **23.3.2-oke_v1.26.2-...** and choose your compartment and check the box for accepting the terms and condition. Click **Launch Stack**.
+3.  Select the latest version available and choose your compartment and check the box for accepting the terms and condition. Click **Launch Stack**.
     ![launch stack](images/launch-stack.png)
 
 4. In Stack information section, leave everything default and click **Next**.
@@ -153,4 +155,4 @@ You may now proceed to the next lab.
 
 * **Author** -  Ankit Pandey
 * **Contributors** - Maciej Gruszka, Sid Joshi
-* **Last Updated By/Date** - Ankit Pandey, August 2023
+* **Last Updated By/Date** - Ankit Pandey, October 2023
